@@ -1,0 +1,93 @@
+.team-members {
+    padding: 100px 20px;
+    background: var(--color-primary-m);
+    color: #191919;
+}
+.team-title {
+    text-align: center;
+    color: var(--color-secondary);
+    font-size: 2rem;
+    letter-spacing: 0.2px;
+}
+
+.member {
+    text-align: center;
+    margin: 40px 20px;
+    // height: 10rem;
+}
+
+.member-img {
+    height: 8rem;
+    width: 8rem;
+    margin: 0 auto;
+    img {
+        border-radius: 20px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.member h3 {
+    text-transform: capitalize;
+    margin: 8px 0 4px;
+    color: var(--text-color);
+    font-size: 27px;
+}
+
+.member h6 {
+    margin: 0 0 5px;
+    text-transform: capitalize;
+    color: var(--color-secondary);
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+//   .member p {
+//     margin: 0 0 10px 0;
+//     line-height: 1.2;
+//     color: var(--text-color);
+//   }
+
+.member-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 55px;
+    transition: all 0.3s ease-in-out;
+}
+
+.member-icons a {
+    font-size: 25px;
+    // margin: 0.5rem 0.5rem;
+    color: var(--text-color);
+    border-radius: 10%;
+    // padding: 0.07px 4px;
+    // margin: 0 0.4rem;
+    transition: all 0.3s ease-in-out;
+    // background-color: var(--color-secondary);
+    // border: 2px solid var(--color-secondary);
+    &:hover {
+        background-color: var(--bg-color);
+        transform: scale(1.1);
+
+
+    }
+}
+
+// .member-icons .fa-facebook-square:hover {
+//     color: #3b5998;
+// }
+
+.member-icons .fa-instagram:hover {
+    color: #bc2a8d;
+}
+
+.member-icons .fa-whatsapp:hover {
+    color: #075e54;
+    
+}
+
+.member-icons .fa-user-circle:hover {
+    color: var(--color-secondary);
+}
