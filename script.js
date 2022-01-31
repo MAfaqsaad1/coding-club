@@ -3,7 +3,7 @@
 $(document).ready(function(){
     // toggle button
     $('.btn').click(function(){
-        $('.nav-links').slideToggle(1000);
+        $('.nav-links').slideToggle(100);
         $('.btn').toggleClass('change');
     })
 
@@ -126,4 +126,8 @@ let smoothTrans = () => {
         
     },1000);
 };
+
+alert ("check Out the Color Switch (in Nav)");
+
+
 
