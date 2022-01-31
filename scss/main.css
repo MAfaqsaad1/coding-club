@@ -946,6 +946,12 @@ form textarea {
   background: transparent;
 }
 
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-bottom: 3px solid var(--color-secondary);
+}
+
 form input::-webkit-input-placeholder {
   text-transform: capitalize;
   color: var(--text-color);
